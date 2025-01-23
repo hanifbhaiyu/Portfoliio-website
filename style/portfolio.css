@@ -6,6 +6,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    max-width: 1920px;
 }
 .text-primary {
     color: #FD6E0A;
