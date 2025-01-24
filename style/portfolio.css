@@ -103,14 +103,15 @@ main {
   flex-shrink: 0;
   margin: 0 auto;
 }
-main section {
-  margin-top: 130px;
-  margin-bottom: 130px;
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 .about {
   border-radius: 10px;
   padding: 131px 157px;
   text-align: center;
+  
 }
 .about-items {
   display: flex;
@@ -148,52 +149,30 @@ main section {
 }
 
 .skill {
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.resume-container {
+/* resume section styles */
+.resume-container{
   display: flex;
-  gap: 71px;
-  
+  gap: 24px;
 }
-.resume-column-title {
-  color: var(--Dark-02, #474747);
-  font-family: "Open Sans";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.experience-title {
-  color: var(--Dark-02, #474747);
-  font-family: "Open Sans";
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.experience-sub-title {
-  color: var(--Dark-03, #757575);
-  font-family: "Open Sans";
+.experience-sub-title{
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  margin-bottom: 20px;
 }
-.experience-description {
-  color: var(--Dark-03, #757575);
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+.experience-description, .experience-sub-title{
+  color: #757575;
 }
-.experience {
-  max-width: 1600px;
-  max-height: 4256px; 
-  background: var(--White-Color, #fff);
+.resume hr{
+  margin: 30px 5px;
 }
-.space-ing {
-  margin-bottom: 50px;
+
+.resume-download-cv{
+  margin-top: 50px;
+}
+.text-center{
+  text-align: center;
 }
